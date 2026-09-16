@@ -67,6 +67,18 @@ Cada entrega vale 100 pontos no Classroom (2,0 no total do projeto, que vale 10,
 - Relatório: tabela completa de VLSM (rede, máscara/CIDR, faixa de IPs usáveis, gateway) + análise de eficiência/desperdício do bloco.
 - Critério principal: **minimização do desperdício**.
 
+**Endereçamento definido (relatório em [E2 - redes(grupo-13).docx](E2%20-%20redes%28grupo-13%29.docx)):**
+
+| Laboratório | VLAN | Necessidade | Alocados | Rede | CIDR | Faixa de IPs Usáveis | Gateway |
+|---|---|---|---|---|---|---|---|
+| 1 (A+B) | 10 | 35 hosts | 62 | 172.20.13.0 | /26 | 172.20.13.1 – .62 | 172.20.13.1 |
+| 2 (A+B) | 20 | 30 hosts | 62 | 172.20.13.64 | /26 | 172.20.13.65 – .126 | 172.20.13.65 |
+| 3 | 30 | 20 hosts | 30 | 172.20.13.128 | /27 | 172.20.13.129 – .158 | 172.20.13.129 |
+| 4 | 40 | 20 hosts | 30 | 172.20.13.160 | /27 | 172.20.13.161 – .190 | 172.20.13.161 |
+| 5 | 50 | 15 hosts | 30 | 172.20.13.192 | /27 | 172.20.13.193 – .222 | 172.20.13.193 |
+
+Sobra livre: `172.20.13.224/27` (32 endereços, reservado para expansão). Taxa de utilização do bloco: 224/256 = 87,5%.
+
 ### E3 — Segmentação (VLANs/DHCP)
 - Mapeamento: Lab1→VLAN10, Lab2→VLAN20, Lab3→VLAN30, Lab4→VLAN40, Lab5→VLAN50.
 - Primeiro passo obrigatório: ativar a porta do roteador (`no shutdown` na interface física, ex. GigabitEthernet0/0).

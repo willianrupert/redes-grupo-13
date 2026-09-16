@@ -6,6 +6,15 @@ Repositório do Grupo 13 para o projeto de reestruturação da rede dos laborat�
 - Bloco IP do grupo: `172.20.13.0/24`
 - Arquivo de topologia atual: [topologia.pkt](topologia.pkt) (abrir no Cisco Packet Tracer)
 
+## Entregas
+
+| Entrega | Relatório | Status |
+|---|---|---|
+| E1 — Design Físico e Topologia | [docx](E1%20-%20redes%28grupo-13%29.docx) · [pdf](E1%20-%20redes%28grupo-13%29.pdf) | ✅ Entregue |
+| E2 — Endereçamento VLSM | [docx](E2%20-%20redes%28grupo-13%29.docx) | 🟡 Em revisão |
+| E3 — Segmentação (VLANs/DHCP) | — | ⏳ Pendente |
+| E4 — Roteamento Inter-VLAN e Conectividade | — | ⏳ Pendente |
+
 ## Integrantes
 
 - Amanda Trinity Gomes Nascimento
