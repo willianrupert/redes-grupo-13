@@ -12,8 +12,8 @@ Repositório do Grupo 13 para o projeto de reestruturação da rede dos laborat�
 |---|---|---|
 | E1 — Design Físico e Topologia | [docx](E1%20-%20redes%28grupo-13%29.docx) · [pdf](E1%20-%20redes%28grupo-13%29.pdf) | ✅ Entregue |
 | E2 — Endereçamento VLSM | [docx](E2%20-%20redes%28grupo-13%29.docx) | 🟡 Em revisão |
-| E3 — Segmentação (VLANs/DHCP) | — | ⏳ Pendente |
-| E4 — Roteamento Inter-VLAN e Conectividade | — | ⏳ Pendente |
+| E3 — Segmentação (VLANs/DHCP) | [Google Docs](https://docs.google.com/document/d/1TspaH4KAO6TgUaTwae6wKdsa43qxRIJT6_AqwrO90qU/edit) · [pkt](entrega_03.pkt) | ✅ Entregue |
+| E4 — Roteamento Inter-VLAN e Conectividade | [Google Docs](https://docs.google.com/document/d/1OtGmYzIzUjzaJAtROAF01l3KWa41ducnD6D5OkNXC5w/edit) · [pkt](entrega_04.pkt) · [evidências](evidencias/E4) | 🟡 Em revisão |
 
 ## Integrantes
 
